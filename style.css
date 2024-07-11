@@ -1,0 +1,51 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+.conteiner{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.info-block {
+    background: url(../img/img.png) no-repeat center/cover; 
+    padding:210px 0 120px 0;
+}
+
+
+.conteiner {
+}
+
+.info-block__desc {
+    text-align: center;
+}
+
+.info-block__title {
+    font-size: 71px;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+.info-block__text {
+    color: aliceblue;
+    margin-top: 30px;
+}
+
+.info-block__btn{
+    margin:15px;
+}
+
+.btn{
+    font-size: 16px;
+    border: 1px solid green;
+    background-color: green;
+    color: aliceblue;
+    padding: 15px 30px 15px 30px;
+    cursor: pointer;
+    transition: all 1s ease;
+}
+.btn:hover{
+    transform: scale(1.1);
+    font-size:17px;
+}
